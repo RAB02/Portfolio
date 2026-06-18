@@ -2,6 +2,7 @@ export default function ProjectCard({
   title,
   description,
   github_url,
+  Web_link,
 }) {
   return (
     <div className="h-full rounded-xl  p-6 shadow-md hover:shadow-lg transition flex flex-col">
@@ -13,13 +14,28 @@ export default function ProjectCard({
         ))}
       </ul>
 
-      <div className="pt-2 mt-auto flex justify-center">
-        <a
-          href={github_url}
-          className="rounded-full bg-white px-3 py-1 text-sm text-black"
-        >
-          Project Link
-        </a>
+      <div className="pt-2 mt-auto flex justify-center gap-4">
+       {github_url && (
+          <a
+            href={github_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-white px-3 py-1 text-sm text-black"
+          >
+            Project Link
+          </a>
+        )}
+
+        {Web_link && (
+          <a
+            href={Web_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-white px-3 py-1 text-sm text-black"
+          >
+            Website Link
+          </a>
+        )}
       </div>
     </div>
   );

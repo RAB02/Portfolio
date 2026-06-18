@@ -6,10 +6,10 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 py-4">
         <ul className="flex justify-center gap-8 text-lg font-medium text-black">
           <li><a href="#home">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          {/* <li><a href="#experience">Experience</a></li> */}
           <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>

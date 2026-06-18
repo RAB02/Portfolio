@@ -16,24 +16,24 @@ function App() {
           <AboutSection />
         </section>
 
-        <section id="skills" className="">
-          <h1 className="text-5xl font-bold">Skills</h1>
-          <SkillsSection />
-        </section>
-
-        <section id="experience">
-          <h1 className="text-3xl font-bold">Experience</h1>
+        {/* <section id="experience"> */}
+          {/* <h1 className="font-bold">Experience</h1> */}
           {/* <ExperienceSection /> */}
-        </section>
+        {/* </section> */}
 
         <section id ="projects">
-          <h1 className="text-3xl font-bold">Projects</h1>
+          <h1 className="font-bold">Projects</h1>
           <ProjectsSection />
         </section>
 
         <section id = "education" >
           <h1 className="font-bold">Education</h1>
           <EducationSection />
+        </section>
+
+        <section id="skills" className="">
+          <h1 className="font-bold">Skills</h1>
+          <SkillsSection />
         </section>
       </main>
     </div>
