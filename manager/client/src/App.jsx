@@ -23,7 +23,7 @@ function App() {
 
         <section id="experience">
           <h1 className="text-3xl font-bold">Experience</h1>
-          <ExperienceSection />
+          {/* <ExperienceSection /> */}
         </section>
 
         <section id ="projects">
