@@ -14,13 +14,13 @@ export default function ProjectCard({
         ))}
       </ul>
 
-      <div className="pt-2 mt-auto flex justify-center gap-4">
+      <div className="pt-4 mt-auto flex justify-center gap-4">
        {github_url && (
           <a
             href={github_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-white px-3 py-1 text-sm text-black"
+            className="rounded-full bg-white px-3 py-1 text-sm text-blue-600 hover:bg-blue-500/10 transition"
           >
             Project Link
           </a>
@@ -31,7 +31,7 @@ export default function ProjectCard({
             href={Web_link}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-white px-3 py-1 text-sm text-black"
+            className="rounded-full bg-white px-3 py-1 text-sm text-green-600 hover:bg-green-500/10 transition"
           >
             Website Link
           </a>

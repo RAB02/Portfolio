@@ -22,7 +22,8 @@ export default function ProjectsSection() {
   }, []);
 
   return (
-      <div className="grid gap-6">
+    <div className="max-w-4xl mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
@@ -30,5 +31,6 @@ export default function ProjectsSection() {
           />
         ))}
       </div>
+    </div>
   );
 }
