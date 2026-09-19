@@ -80,7 +80,7 @@ export default function AboutSection() {
           </a>
 
           <a
-            href="https://bqherrnlmgbxzkfrvswi.supabase.co/storage/v1/object/public/resumes/Ramon%20Angel%20Bernal%20Resume.pdf"
+            href="https://bqherrnlmgbxzkfrvswi.supabase.co/storage/v1/object/public/resumes/Ramon%20Bernal%20Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="rounded-lg border border-white/20 px-5 py-3 text-white font-medium hover:bg-white/10 transition"
